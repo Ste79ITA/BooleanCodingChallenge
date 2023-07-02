@@ -1,0 +1,77 @@
+body {
+  background-image: url(./Assets/background.jpg);
+}
+
+/* MAIN CONTAINER */
+
+container {
+  display: block;
+  margin: auto;
+  background-color: rgba(0 0 0 / 60%);
+  height: 1000px;
+  width: 60%;
+  border-radius: 1%;
+  margin-top: 20px;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+/* HEADER */
+
+header {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+  color: rgb(24 215 46);
+}
+header > h1 {
+  line-height: 1px;
+  font-size: 40px;
+}
+.logo {
+  width: 300px;
+}
+
+/* NAVBAR */
+
+nav {
+  padding: 15px;
+  background-color: rgb(24 215 46);
+  text-align: center;
+}
+
+/* SCOOTERS LIST */
+
+.entry {
+  padding-top: 25px;
+  line-height: 25px;
+  color: white;
+}
+
+.scooter {
+  display: inline-block;
+  font-size: 30px;
+}
+/* BATTERY STATUS */
+
+.battery {
+  height: 30px;
+  border-radius: 5px;
+}
+
+.low {
+  background-color: rgb(181 58 59);
+  width: 17%;
+}
+
+.mid {
+  background-color: rgb(243, 171, 83);
+  width: 40%;
+}
+
+.high {
+  background-color: rgb(24 215 46);
+  width: 63%;
+}
